@@ -1,10 +1,19 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-let amigos = [];
-let nombresSorteados = [];
+console.log("Hola Mundo");
 
-function cambiarContenido(elemento,texto) {
-    document.getElementById(elemento)
-    elemento.innerHTML(texto);
+let amigos = [];
+
+function agregarAmigo() {
+    let inputAmigo = document.getElementById("amigo");
+
+    let nombre = inputAmigo.value.trim();
+
+    if (nombre == "") {
+        alert("Por favor, ingresa un nombre.");
+        return;
+    }
+
+    amigos.push(nombre);
+
+    mostrarLista();
 }
 
-cambiarContenido(listaAmigos,)

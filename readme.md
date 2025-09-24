@@ -1,6 +1,6 @@
 # 🎁 Amigo Secreto
 
-Challenge Amigo Secreto: practicando lógica de programación
+Challenge Amigo Secreto: practicando lógica de programación.
 Aplicación web para organizar un sorteo de Amigo Secreto.  
 Permite agregar nombres, mostrarlos en una lista, sortear un nombre al azar sin repetir y limpiar la lista para empezar de nuevo.
 
